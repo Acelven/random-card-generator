@@ -1,4 +1,4 @@
-app.js index.html and styles.css on root folder.
+app.js index.html and styles.css on ./src
 
 ### Thank you
 
