@@ -72,8 +72,8 @@ body {
 .timer { 
   color: white;
   font-size: 20px;
-  position: absolute;
-  left: 275px
+  position:relative;
+  left: -15px
 
 
 }
