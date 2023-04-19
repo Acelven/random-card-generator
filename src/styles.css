@@ -1,0 +1,79 @@
+body {
+  background: black
+  ;
+  
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  width: 400px;
+}
+
+.card {
+  height: 24em;
+  width: 16em;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card p {
+  font: 80px/380px Times New Roman, serif;
+  text-align: center;
+  margin: auto;
+}
+
+.theButton {
+  width: 12em;
+  height: 3em;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px #5f5e5e78;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  margin-top: 0.5em;
+}
+
+.theButton:hover {
+  transition-duration: 0.4s;
+  background-color: violet;
+}
+
+#topSuit {
+  font-size: 100px;
+  position: absolute;
+  top: -27px;
+  left: 10px;
+  
+}
+
+#bottomSuit {
+  transform: rotate(180deg);
+  font-size: 100px;
+  position: absolute;
+  bottom: -27px;
+  right: 10px;
+}
+
+.redSuit {
+  color: red;
+}
+
+.blackSuit {
+  color: black;
+}
+
+.timer { 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 275px
+
+
+}
